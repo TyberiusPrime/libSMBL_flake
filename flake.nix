@@ -60,6 +60,7 @@
           };
 
       in {
+        libSMBl = libSMBL;
         defaultPackage = libSMBL {
           version = "5.19.0";
           hash = "sha256-p/Dhi+eP8OBk5M2xzYZjTQi8M75SUNtKGHi9ge64tUc=";
